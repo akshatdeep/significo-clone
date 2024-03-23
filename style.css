@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+*::selection{
+    background-color: #EF9D71;
+}
+
+
+
 body[theme="black"]{
     background-color: black;
 }
